@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "moduleResolution": "bundler",
+        "module": "ESNext",
+        "target": "ESNext",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "jsx": "react"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
